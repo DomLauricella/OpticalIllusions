@@ -1,0 +1,15 @@
+:root { --bs-primary: #1b4e80; --bs-link-color: #1b4e80; }
+body { background: #f5f7fa; color: #202b38; }
+.container { max-width: 1080px; }
+.navbar a:not(.navbar-brand) { font-size: .95rem; }
+.intro { max-width: 760px; }
+h1 { font-size: clamp(2rem, 5vw, 2.65rem); }
+p { line-height: 1.65; }
+.card { border-color: #d8dee7; border-radius: .5rem; box-shadow: none; }
+.card-body { padding: 1.5rem; }
+.illusion { display: block; width: 100%; height: auto; background: #fff; border: 1px solid #e1e5eb; border-radius: .25rem; }
+.btn-primary { --bs-btn-bg: #1b4e80; --bs-btn-border-color: #1b4e80; --bs-btn-hover-bg: #143b61; --bs-btn-hover-border-color: #143b61; --bs-btn-active-bg: #143b61; --bs-btn-active-border-color: #143b61; }
+section { scroll-margin-top: 1.5rem; }
+a:focus-visible, button:focus-visible, input:focus-visible { outline: 3px solid #b44b13; outline-offset: 4px; }
+.small { font-size: .9rem; }
+@media (max-width: 575px) { .card-body { padding: 1rem; } .navbar .container { padding-block: .5rem; } }
